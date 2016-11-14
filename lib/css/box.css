@@ -101,7 +101,8 @@ body {
 }
 
 ._3dface--front {
-  background: url("../lib/images/nature3.JPG");
+  /*background: url("../lib/images/nature3.JPG");*/
+  background-color: purple;
   background-size: 100%;
 }
 
