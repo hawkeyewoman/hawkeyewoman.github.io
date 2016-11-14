@@ -101,31 +101,31 @@ body {
 }
 
 ._3dface--front {
-  background-image: url("../../lib/images/nature3.jpg");
+  background-image: url("../lib/images/nature3.jpg");
   background-size: 100%;
 }
 
 ._3dface--left {
-  background-image: url("../../lib/images/nature2.jpg");
+  background-image: url("../lib/images/nature2.jpg");
   background-size: auto 100%;
 }
 
 ._3dface--right {
-  background-image: url("../../lib/images/nature1.jpg");
+  background-image: url("../lib/images/nature1.jpg");
   background-size: auto 100%;
 }
 
 ._3dface--top {
-  background-image: url("../../lib/images/nature4.jpg");
+  background-image: url("../lib/images/nature4.jpg");
   background-size: auto 100%;
 }
 
 ._3dface--bottom {
-  background-image: url("../../lib/images/nature5.jpg");
+  background-image: url("../lib/images/nature5.jpg");
   background-size: auto 100%;
 }
 
 ._3dface--back {
-  background-image: url("../../lib/images/nature6.jpg");
+  background-image: url("../lib/images/natu.jpg");
   background-size: auto 100%;
 }
