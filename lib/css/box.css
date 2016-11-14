@@ -101,27 +101,27 @@ body {
 }
 
 ._3dface--front {
-  background: url(../../lib/images/DSC00828.jpg);
+  background: url("../../lib/images/DSC00828.jpg");
   background-size: 100%;
 }
 
 ._3dface--left {
-  background: url(../../lib/images/DSC00820.jpg);
+  background: url("../../lib/images/DSC00820.jpg");
   background-size: auto 100%;
 }
 
 ._3dface--right {
-  background: url(../../lib/images/DSC00777.jpg);
+  background: url("../../lib/images/DSC00777.jpg");
   background-size: auto 100%;
 }
 
 ._3dface--top {
-  background: url(../../lib/images/DSC00870.jpg);
+  background: url("../../lib/images/DSC00870.jpg");
   background-size: auto 100%;
 }
 
 ._3dface--bottom {
-  background: url(../../lib/images/DSC00897.jpg);
+  background: url("../../lib/images/DSC00897.jpg");
   background-size: auto 100%;
 }
 
