@@ -30,9 +30,27 @@ a.btn:active {
 div.posts {
   /*margin: 80px auto;*/
   margin-top: 20px;
-  margin-left: 200px;
-  max-width: 960px;
   text-align: center;
+}
+
+@media (max-width: 766px) {
+  div.posts {
+    /*margin: 80px auto;*/
+    margin-top: 20px;
+    text-align: center;
+  }
+  div.post {
+    display: inline-block;
+    margin: 8px;
+    max-width: 300px;
+    -webkit-perspective: 1000;
+            perspective: 1000;
+    position: relative;
+    text-align: left;
+    -webkit-transition: all 0.3s 0s ease-in;
+    transition: all 0.3s 0s ease-in;
+    z-index: 1;
+  }
 }
 div.post {
   display: inline-block;

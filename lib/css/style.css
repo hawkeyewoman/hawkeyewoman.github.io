@@ -1,3 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
+.hoverEffect .overlay {
+  margin-left: 0 !important;
+  width: 100% !important;
+}
+
 .col-md-5>img {
   width: 100%;
 }
@@ -29,6 +38,17 @@ section {
   line-height: 160px; font-weight: normal;
   margin-bottom: 70px; margin-top: 80px;
   text-align: center; text-shadow: 0 2px 2px #fff;
+}
+
+@media (max-width: 766px) {
+  h1 {
+   color: #6F477F;
+   font-family: 'Dancing Script', cursive;
+   font-size: 80px;
+   line-height: 160px; font-weight: normal;
+   margin-bottom: 70px; margin-top: 80px;
+   text-align: center; text-shadow: 0 2px 2px #fff;
+ }
 }
 
 .lead {
@@ -203,8 +223,6 @@ p {
 .demoText {
   list-style: none;
   color: pink;
-  margin-left: 5px;
-  margin-right: 5px;
   text-align: center;
   font-family: 'Asar', serif;
 }
