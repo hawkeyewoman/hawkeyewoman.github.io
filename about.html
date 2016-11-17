@@ -15,18 +15,17 @@
 
     <link rel="icon" href="lib/images/butterfly.ico" type="image/x-icon"/>
 
-    <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="stylesheet" href="lib/css/index.css">
     <link rel="stylesheet" type="text/css" href="lib/css/slicebox.css"/>
  		<link rel="stylesheet" type="text/css" href="lib/css/custom.css"/>
     <link rel="stylesheet" type="text/css" href="lib/css/card.css"/>
-    <style>
-      body{
-        background: url("lib/images/bridge.jpg")no-repeat center center;
-        background-attachment: fixed;
-      }
-    </style>
+
   </head>
   <body>
+    <div id="backToTop">
+
+    </div>
+
     <nav class="navbar navbar-light bg-faded">
     <div class="row white">
       <a class="navbar-brand" href="index.html"><img src="lib/images/butterfly2.png" class="img-responsive center-block" style="height: 100px; width: 100px"</a>
@@ -120,7 +119,7 @@
       <div class="row">
         <div class="col-md-6">
           <h3 class="title">Childhood</h3>
-            <p>
+            <p class="childhood">
             I grew up in the Four Corners area with my parents.  My parents were a huge influence in my life,
             they taught me how to love, respect, care, and never to give up.  Life isn't easy and times we
             feel like wanting to throw in the towel and call it quits but we remember the struggle our parents,
@@ -187,6 +186,7 @@
       -webkit-transition: all 0.4s ease-in;
       transition: all 0.4s ease-in;
       filter: grayscale(1) blur(2px);filter: grayscale(1) blur(2px);
+
       height: 300px;
       }
     }
@@ -220,7 +220,7 @@
     position: relative;
     -webkit-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
-    filter: grayscale(1) blur(2px);filter: grayscale(1) blur(2px);
+    /*filter: grayscale(1) blur(2px);filter: grayscale(1) blur(2px);*/
     height: 300px;
     }
 
@@ -229,6 +229,7 @@
     transform: scale(1.2);/*This is the one you really need, the other two are just for other browsers*/
     -webkit-transform: scale(1.2);/*this is for browsers like apple safari*/
     -ms-transform: scale(1.2);/*this one if for Internet Explorer browser*/
+    filter: grayscale(1) blur(2px);filter: grayscale(1) blur(2px);
     }
 
     .hoverEffect h2 {
@@ -277,7 +278,7 @@
     <div class="col-md-12">
       <br>
       <br>
-        <p>
+        <p class="childhood">
           As a child, I never knew what a cellphone was or the internet because they were not introduced
           to the world yet.  My childhood consist of playing in the hills behind our home and gardening
           with my parents.  Today, my three year old knows how to operate my cellphone and makes you
@@ -285,7 +286,7 @@
           are learning something new.
         </p>
         <br>
-        <p>
+        <p class="childhood">
           I never truly understood the process behind a website until recently.
           The training I received in class was insightful and taught me how to construct
           this site.  The first two weeks were full of codes and it even came to the point of dreaming
@@ -318,7 +319,7 @@
                     </div>
                     <div class="post-flap flap1">
                       <div class="post-description">
-                        Loving taking photographs in my spare time.  This photo is from Alburqueque, New Mexico.
+                        I loving taking photographs in my spare time.
                         <small>&copy; CR 2016</small>
                       </div>
                     </div>
@@ -379,10 +380,10 @@
 
     <div class="col-md-12">
       <footer><div class="container">
-          <p class="pull-left"><a href="about.html">Back to Top</a></p>
-          <p class="pull-left"><a href="index.html">Home</a></p>
-          <p class="pull-left"><a href="contact.html">Contact</a></p>
-          <p>
+          <p class="pull-left"><a class="footer" href="#backToTop">Back to Top</a></p>
+          <p class="pull-left"><a class="footer" href="index.html">Home</a></p>
+          <p class="pull-left"><a class="footer" href="contact.html">Contact</a></p>
+          <p class="childhood">
             Hawkeyewoman &copy; 2016
           </p>
           </div>
@@ -395,6 +396,7 @@
       <script type="text/javascript" src="lib/js/card.js"></script>
       <script type="text/javascript" src="lib/js/modernizr.custom.46884.js"></script>
       <script type="text/javascript" src="lib/js/jquery.slicebox.js"></script>
+      <script type="text/javascript" src="lib/js/smoothScroll.js"></script>
       <script type="text/javascript">
         $(function() {
           var Page = (function() {

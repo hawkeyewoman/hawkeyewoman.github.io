@@ -1,6 +1,11 @@
 body {
   overflow-x: hidden;
+  background: #ECE9E6; /* fallback for old browsers   *//* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(bottom, #ECE9E6, #FFFFFF);
+  background: -o-linear-gradient(bottom, #ECE9E6, #FFFFFF);
+  background: linear-gradient(to top, #ECE9E6, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 
 .hoverEffect .overlay {
   margin-left: 0 !important;
@@ -32,30 +37,56 @@ section {
 }
 
  h1 {
-  color: #6F477F;
-  font-family: 'Dancing Script', cursive;
-  font-size: 165px;
-  line-height: 160px; font-weight: normal;
-  margin-bottom: 70px; margin-top: 80px;
-  text-align: center; text-shadow: 0 2px 2px #fff;
+   color: #9E395B;
+   font-family: "Great Vibes";
+   font-weight: normal;
+   font-size: 165px;
+   text-align: center;
+   text-shadow: 0 13px 18px #000000;
+   line-height: 160px;
+   margin-bottom: 70px;
+   margin-top: 60px;
 }
 
 @media (max-width: 766px) {
   h1 {
-   color: #6F477F;
-   font-family: 'Dancing Script', cursive;
-   font-size: 80px;
-   line-height: 160px; font-weight: normal;
-   margin-bottom: 70px; margin-top: 80px;
-   text-align: center; text-shadow: 0 2px 2px #fff;
+    color: #9E395B;
+    font-family: "Great Vibes";
+    font-weight: normal;
+    font-size: 165px;
+    text-align: center;
+    text-shadow: 0 13px 18px #000000;
+    line-height: 160px;
+    margin-bottom: 70px;
+    margin-top: 60px;
  }
 }
 
 .lead {
-color: #F6EFFF;
-font-family: 'Courgette', cursive;
-align-items: center;
-font-size: 35px;
+  color: #7A2C47;
+  font-family: 'Courgette', cursive;
+  align-items: center;
+  font-size: 34px;
+  margin-top: 70px;
+}
+
+.lead2 {
+  color: #9E395B;
+  font-family: "Great Vibes";
+  font-weight: normal;
+  font-size: 42px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 0 1px 1px #000000;
+}
+
+.lead3 {
+  color: #7A2C47;
+  font-family: 'Courgette', cursive;
+  align-items: center;
+  font-size: 34px;
+  padding-bottom: 45px;
 }
 
 h2 {
@@ -138,9 +169,23 @@ p {
   font-family: 'Asar', serif;
 }
 
+.childhood {
+  color: #2B0215;
+  margin-left: 75px;
+  margin-right: 75px;
+  text-align: center;
+  font-family: 'Asar', serif;
+}
+
 .title {
-  color: pink;
-  padding-top: 30px;
+  color: #d54d7b;
+  font-family: "Great Vibes";
+  font-weight: normal;
+  font-size: 38px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+  text-shadow: 0 2px 2px #000000;
 }
 
 .panel {
@@ -222,7 +267,7 @@ p {
 
 .demoText {
   list-style: none;
-  color: pink;
+  color: #fff;
   text-align: center;
   font-family: 'Asar', serif;
 }
@@ -232,10 +277,11 @@ p {
 }
 
 .contact{
-  color: #590459;
+  color: #7A2C47;
   text-align: center;
   font-family: 'Courgette', cursive;
   font-size: 25px;
+  padding: 0 50px;
 }
 
 .carm {
@@ -249,5 +295,12 @@ h6 {
 }
 
 footer {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
+  /*position: absolute;*/
+  bottom: 0;
+
+}
+
+.footer {
+  color: #2B0215;
 }
